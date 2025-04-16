@@ -2,10 +2,13 @@
 
 ## Декораторы
 
+### @BodyArrayWithValidation(items: Type<any>, opts?: ValidationPipeOptions): ParameterDecorator
+парсит и валидирует тело запроса, которе массив
+
 ### @ValidateWithCallback<T>(values: (object: T) => boolean, validationOptions?: ValidationOptions)
 валидация поля объекта с использованием колбека. В колбек поступает объект целиком
 
-### @Serialize()
+### @Serialize(options: ClassSerializerContextOptions = {}): ClassDecorator & MethodDecorator
 для сериализации ответов API — скрывать поля и т.п.
 
 ### @ApiUnauthorizedResponse(description = 'Пользователь не авторизован')

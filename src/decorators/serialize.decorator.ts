@@ -1,11 +1,12 @@
 import {
   applyDecorators,
-  UseInterceptors,
+  ClassSerializerContextOptions,
   ClassSerializerInterceptor,
   SerializeOptions,
+  UseInterceptors,
 } from '@nestjs/common';
 
-export const Serialize = (groups?: string[]): ClassDecorator & MethodDecorator => applyDecorators(
+export const Serialize = (options: ClassSerializerContextOptions = {}): ClassDecorator & MethodDecorator => applyDecorators(
   UseInterceptors(ClassSerializerInterceptor),
-  SerializeOptions({groups}),
+  SerializeOptions(options),
 );
