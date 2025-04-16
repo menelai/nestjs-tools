@@ -15,8 +15,12 @@
     "semantic-release": "semantic-release"
   },
   "peerDependencies": {
+    "@nestjs/swagger": ">=8",
+    "class-transformer": "^0.5.1",
     "@nestjs/common": ">=10",
-    "class-validator": ">=0.13.2"
+    "class-validator": ">=0.13.2",
+    "typeorm": "^0.3.22",
+    "nestjs-typeorm-paginate": "^4.1.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^11.0.6",

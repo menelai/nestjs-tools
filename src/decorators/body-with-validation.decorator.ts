@@ -1,6 +1,6 @@
 import {Body, ValidationPipe, ValidationPipeOptions} from '@nestjs/common';
 
-import {TrimPipe} from '@/decorators/trim.pipe';
+import {TrimPipe} from '@/classes';
 
 /**
  * Парсит и валидирует тело запроса.
