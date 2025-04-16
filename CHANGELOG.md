@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/menelai/nestjs-tools/compare/v1.1.0...v1.2.0) (2025-04-16)
+
+
+### Features
+
+* BodyArrayWithValidation ([fcfc589](https://github.com/menelai/nestjs-tools/commit/fcfc5892f87bd2fa0d8cd30f97e31cb721e080f7))
+
 # [1.1.0](https://github.com/menelai/nestjs-tools/compare/v1.0.0...v1.1.0) (2025-04-16)
 
 
