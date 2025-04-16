@@ -29,7 +29,7 @@
     "@nestjs/cqrs": "^11.0.3",
     "@nestjs/platform-express": "^11.0.17",
     "@nestjs/schematics": "^11.0.5",
-    "@stylistic/eslint-plugin": "^2.13.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.1",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
