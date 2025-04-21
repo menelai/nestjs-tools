@@ -5,3 +5,4 @@ export * from './api-pagination-links';
 export * from './api-pagination-query';
 export * from './pagination-options.dto';
 export * from './validate-array-of-enums.pipe';
+export * from './api-pagination-response';
