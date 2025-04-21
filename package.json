@@ -15,20 +15,25 @@
     "semantic-release": "semantic-release"
   },
   "peerDependencies": {
+    "@nestjs/common": ">=10",
     "@nestjs/swagger": ">=8",
     "class-transformer": "^0.5.1",
-    "@nestjs/common": ">=10",
     "class-validator": ">=0.13.2",
-    "typeorm": "^0.3.22",
-    "nestjs-typeorm-paginate": "^4.1.0"
+    "nestjs-typeorm-paginate": "^4.1.0",
+    "typeorm": "^0.3.22"
   },
   "devDependencies": {
+    "@kovalenko/eslint": "^1.0.1",
     "@nestjs/cli": "^11.0.6",
     "@nestjs/common": "^11.0.17",
     "@nestjs/core": "^11.0.17",
     "@nestjs/cqrs": "^11.0.3",
     "@nestjs/platform-express": "^11.0.17",
     "@nestjs/schematics": "^11.0.5",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
     "@stylistic/eslint-plugin": "^2.13.0",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.1",
@@ -41,16 +46,12 @@
     "reflect-metadata": "^0.2.2",
     "rimraf": "^6.0.1",
     "rxjs": "^7.8.2",
+    "semantic-release": "^19.0.2",
     "source-map-support": "^0.5.20",
     "ts-loader": "^9.2.3",
     "ts-node": "^10.0.0",
     "tsc-alias": "^1.8.15",
     "tsconfig-paths": "4.0.0",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "^9.0.1",
-    "semantic-release": "^19.0.2",
     "typescript": "^5.8.3"
   },
   "repository": {
