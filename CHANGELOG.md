@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/menelai/nestjs-tools/compare/v1.3.0...v1.3.1) (2025-04-21)
+
+
+### Bug Fixes
+
+* api-pagination-response ([92f9d12](https://github.com/menelai/nestjs-tools/commit/92f9d12677c3cb69a62bcc520f067e67bba9c0f3))
+
 # [1.3.0](https://github.com/menelai/nestjs-tools/compare/v1.2.0...v1.3.0) (2025-04-21)
 
 
