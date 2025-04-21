@@ -4,4 +4,4 @@ export * from './api-pagination-meta';
 export * from './api-pagination-links';
 export * from './api-pagination-query';
 export * from './pagination-options.dto';
-export * from './api-pagination-response';
+export * from './validate-array-of-enums.pipe';

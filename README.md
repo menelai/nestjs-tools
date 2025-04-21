@@ -78,6 +78,10 @@ T — тип сущности
 ### TrimPipe
 пайп, используемый для обрезки в `@BodyWithValidation()` и `@QueryWithValidation`.
 
+### ValidateArrayOfEnumsPipe(enum)
+пайп, парсит и валидирует массив енумов
+
+
 Список необрезных полей можно указать в статическом поле `static readonly safeFields: string[]`.
 По умолчанию туда включены поля `password`, `passwordConfirmation`.
 
