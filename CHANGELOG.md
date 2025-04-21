@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/menelai/nestjs-tools/compare/v1.2.0...v1.3.0) (2025-04-21)
+
+
+### Features
+
+* ValidateArrayOfEnumsPipe ([2eac5e6](https://github.com/menelai/nestjs-tools/commit/2eac5e685ee9b594015551ac814d4b56aa1479aa))
+
 # [1.2.0](https://github.com/menelai/nestjs-tools/compare/v1.1.0...v1.2.0) (2025-04-16)
 
 
